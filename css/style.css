@@ -42,6 +42,9 @@ footer a {
 
 /*********** Splash Page ************************/
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: rgb(10, 0, 60);
 }
 
@@ -57,10 +60,12 @@ header img {
 
 .address {
   font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 .tagline {
   font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 /************* Sections ********************/
