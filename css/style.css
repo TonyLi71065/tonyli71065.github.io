@@ -68,6 +68,10 @@ hr {
   
 }
 
+section {
+  padding: 20px;
+}
+
 section h2 {
   font-family: "Inter", sans-serif;
   font-style: italic;
@@ -102,6 +106,7 @@ section a:hover {
 	display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+  align-items: stretch;
   gap: 20px;
 }
 
@@ -114,6 +119,7 @@ section a:hover {
   width: 20rem;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8);
   border-radius: 5px;
+  padding: 10px;
 }
 
 /**************   Responsiveness   *****************/
@@ -132,6 +138,7 @@ section a:hover {
 .one-col {
   display: grid;
   grid-template-columns: 1fr;
+  width: 490px;
 }
 
 input {
